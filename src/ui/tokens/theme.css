@@ -1,0 +1,109 @@
+:root {
+  /* Surfaces */
+  --color-bg: 255 255 255;
+  --color-surface: 0 0 0;
+  --color-surface-muted: 243 244 246;
+
+  /* Text */
+  --color-fg: 0 0 0; /* text on light surfaces */
+  --color-fg-inverse: 255 255 255; /* text on dark surfaces */
+  --color-fg-muted: 107 114 128;
+
+  /* Borders */
+  --color-border: 209 213 219;
+  --color-border-surface: 0 0 0;
+
+  /* Primary action */
+  --color-primary: 37 99 235;
+  --color-on-primary: 255 255 255;
+
+  /* Danger */
+  --color-danger: 220 38 38;
+  --color-on-danger: 255 255 255;
+
+  /* Focus */
+  --color-focus: 37 99 235;
+
+  /* Tooltip */
+  --color-tooltip-bg: 249 250 251; /* gray-50 */
+  --color-tooltip-fg: 55 65 81; /* gray-700 */
+  --color-tooltip-border: 229 231 235; /* gray-200 */
+
+  /* Sizing / Shape */
+  --radius-md: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+
+  --focus-ring: 0.125rem;
+  --focus-offset: 0.125rem;
+
+  /* Status Colors */
+  --color-positive-bg: 220 252 231; /* green-100 */
+  --color-positive-fg: 22 101 52; /* green-800 */
+  --color-warning-bg: 254 243 199; /* yellow-100 */
+  --color-warning-fg: 133 77 16; /* yellow-800 */
+  --color-neutral-bg: 241 245 249; /* blue-100 */
+  --color-neutral-fg: 30 58 138; /* blue-800 */
+  --color-negative-bg: 254 226 226; /* red-100 */
+  --color-negative-fg: 185 28 28; /* red-800 */
+}
+
+:root[data-theme='dark'] {
+  --color-bg: 26 26 26;
+  --color-surface: 255 255 255;
+  --color-surface-muted: 17 24 39;
+
+  --color-fg: 243 244 246; /* text on light surfaces */
+  --color-fg-inverse: 0 0 0; /* text on dark surfaces */
+  --color-fg-muted: 156 163 175;
+
+  --color-border: 55 65 81;
+  --color-border-surface: 255 255 255;
+
+  --color-primary: 96 165 250;
+  --color-on-primary: 11 16 32;
+
+  --color-danger: 248 113 113;
+  --color-on-danger: 11 11 11;
+
+  --color-focus: 96 165 250;
+
+  --color-tooltip-bg: 31 41 55; /* gray-800 */
+  --color-tooltip-fg: 249 250 251; /* gray-50 */
+  --color-tooltip-border: 75 85 99; /* gray-600 */
+
+  /* Status Colors */
+  --color-positive-bg: 22 163 74; /* green-600 */
+  --color-positive-fg: 220 252 231; /* green-100 */
+  --color-warning-bg: 234 179 8; /* yellow-500 */
+  --color-warning-fg: 254 249 195; /* yellow-100 */
+  --color-neutral-bg: 59 130 246; /* blue-500 */
+  --color-neutral-fg: 219 234 254; /* blue-100 */
+  --color-negative-bg: 220 38 38; /* red-600 */
+  --color-negative-fg: 254 226 226; /* red-100 */
+}
+
+:root[data-theme='purplegold'] {
+  --color-bg: 251 243 240;
+  --color-surface: 53 17 69;
+  --color-surface-muted: 240 221 211;
+
+  --color-fg: 53 17 69; /* text on light surfaces */
+  --color-fg-inverse: 240 221 211; /* text on dark surfaces */
+  --color-fg-muted: 106 72 120;
+
+  --color-border: 210 180 170;
+  --color-border-surface: 53 17 69;
+
+  --color-primary: 255 213 106;
+  --color-on-primary: 53 17 69;
+
+  --color-danger: 185 28 28;
+  --color-on-danger: 255 255 255;
+
+  --color-focus: 53 17 69;
+
+  --color-tooltip-bg: 246 232 224; /* lighter peach */
+  --color-tooltip-fg: 53 17 69;
+  --color-tooltip-border: 220 185 170;
+}
